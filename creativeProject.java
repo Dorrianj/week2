@@ -17,6 +17,7 @@ public class creativeProject {
 		String pull = "";
 		String name = "";
 		boolean yellow = true;
+		long pink = 200;
 		
 		System.out.println("welcome to my creative project");
 		
@@ -34,31 +35,28 @@ public class creativeProject {
 		
 		System.out.println( name + " favorite color is " + pull);
 		System.out.println("her favorite number is " + money);
-		System.out.println("she is " + basics + " years old ");
-				
+		System.out.println("she/he is " + basics + " years old ");
 		
-		
-		int color = 15;
-		int green = 14;
-		int purple = 12; 
+		long color = money+basics;
+		long green = money*basics;
+		long purple = money/basics;
+		long pink1 = money-basics;
 		
 		System.out.println("these are your lucky numbers: "
-				+color + ", " + green + ", " + purple + "! ");
+				+color + ", " + green + ", " + purple + ", " + pink1 + "!");
 		
 		System.out.println("true or false question");
 		System.out.println(" do you like sports");
 		yellow = project.next() != null;
 		
 	System.out.println("is our program better");
-	yellow = project.hasNext();
+	yellow = project.next() != null;
 		
 		System.out.println("enter a number to see a magic trick");
 		int color1= project.nextInt();
 	 
 	  
 		for (int x=color1; x<100; x++) {
-		
-			                
 			
 			if (color1>2) {
 				System.out.println(x);
